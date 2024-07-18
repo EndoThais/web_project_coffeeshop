@@ -181,11 +181,124 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  margin-top: 24px;
+  margin: 24px 0 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-size: contain;
+  background-position: center;
+}
+
+.reservation__title {
+  display: block;
+}
+
+.form__fieldset {
+  display: block;
+  max-width: 385px;
+  margin-top: 80px;
+  padding-bottom: 120px;
+  border: 0;
+}
+
+.reservation__form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.form__input-container {
+  width: 240px;
+  margin: auto;
+  padding-bottom: 50px;
+  border: 0;
+  border-radius: 4px;
+}
+
+.reservation__heading {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__item {
+  border: #838383;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  height: 60px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__item::placeholder {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.form__input-container {
+  width: 240px;
+  margin: auto;
+  padding-bottom: 50px;
+  border: 0;
+}
+
+.form__button {
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 32px;
+  transition: opacity 0.4s;
+  color: white;
+  background-color: #2f80ed;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  height: 60px;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__label-checkbox {
+  display: inline;
+  border-radius: 2px;
+  gap: 12px;
+  width: 20;
+  height: 20;
+}
+
+.form__label_direction_right {
+  display: inline;
 }
