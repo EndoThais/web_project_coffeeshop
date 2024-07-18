@@ -199,6 +199,8 @@
 
 .reservation__title {
   display: block;
+  margin: auto;
+  width: 100%;
   margin: 0;
   font-family: Inter;
   font-style: normal;
