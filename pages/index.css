@@ -203,6 +203,7 @@
 
 .form__fieldset {
   display: block;
+  text-align: center;
   max-width: 385px;
   margin-top: 80px;
   padding-bottom: 120px;
@@ -237,7 +238,7 @@
 }
 
 .form__label {
-  display: block;
+  display: flex;
   margin-bottom: 8px;
   font-family: Inter;
   font-style: normal;
